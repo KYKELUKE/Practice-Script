@@ -1,13 +1,14 @@
-var nombre = "Enrique";
-var edad = 20;
-var distrito = true;
-var provincia = "deluque";
-var estatura = 1.70;
+//operadores aritmeticos
 
-console.log("Nombre: " + nombre + " " + typeof  nombre);
-console.log("Edad: " + edad + " " + typeof  edad);
-console.log("Distrito: " + distrito + " " + typeof  distrito);
-console.log("Provincia: " + provincia + " " + typeof  provincia);
-console.log("Estatura: " + estatura + " " + typeof  estatura);
+console.log(suma);
 
-//alert(" Hello World this is a very Amazing " + nombre);
+
+
+var resta = 20 - 4;
+console.log(resta);
+var multi = 5 * 5;
+console.log(multi);
+var divi = 30 / 3;
+console.log(divi);
+var resto = 60 % 2;
+console.log(resto);

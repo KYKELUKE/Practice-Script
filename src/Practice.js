@@ -1,14 +1,8 @@
-//operadores aritmeticos
+//Operadores de Comparacion (relacionales)
 
-console.log(suma);
+console.log(5>2);
+console.log(98<1);
 
 
-
-var resta = 20 - 4;
-console.log(resta);
-var multi = 5 * 5;
-console.log(multi);
-var divi = 30 / 3;
-console.log(divi);
-var resto = 60 % 2;
-console.log(resto);
+var numero = 9;
+console.log(4 == numero);

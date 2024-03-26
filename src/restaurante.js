@@ -1,11 +1,22 @@
-var Aprobe = true;
+var color = prompt("Ingrese un color");
 
-if(Aprobe == true){
-    console.log("Puedo salir!!!")
+switch(color) {
 
+case "rojo":
+    console.log("Es rojo");
+    break;
 
-}
-else{
-    console.log("Tengo que estudiar :,(((")
+    case "azul":
+    console.log("Es azul");
+    break;
+
+    case "amarillo":
+    console.log("Es amarillo");
+    break;
+
+    default:
+        console.log("El color ingresado no es valido");
+        break;
+
 }
 
